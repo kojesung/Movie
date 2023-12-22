@@ -6,7 +6,7 @@ export const MovieItemContainer = styled.div`
     align-items: center;
     text-align: center;
     height: 100%;
-    width: 150px;
+    width: 180px;
     background-color: rgb(55, 59, 105);
     display: flex;
 `;
@@ -42,7 +42,7 @@ export const ImageContainer = styled.div`
 
 export const MoviePoster = styled.img`
     width: 100%;
-    height: 100%;
+    height: 108%;
     object-fit: cover;
 `;
 
@@ -56,11 +56,13 @@ export const IndexBlock = styled.div`
 `;
 
 export const MovieTitle = styled.div`
-    font-size: 10px;
+    font-size: 12px;
+    align-items: center;
     color: white;
 `;
 
 export const MovieAverage = styled.div`
-    font-size: 10px;
+    font-size: 12px;
+    align-items: center;
     color: white;
 `;
